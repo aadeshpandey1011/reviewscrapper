@@ -75,6 +75,7 @@ def index():
             return render_template('results.html', reviews=reviews[0:(len(reviews)-1)])
         except Exception as e:
             print('The Exception message is: ',e)
+		print('Hello World')
             return 'something is wrong'
     # return render_template('results.html')
 
